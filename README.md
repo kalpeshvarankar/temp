@@ -8,8 +8,8 @@ Below, I have outlined the key steps and methodologies that i have used in the s
 ## 1. Web Scraping
 #### Function: extract_content_from_urls(url)
 The first step is extracting content from the provided URLs. This is achieved through the requests library to send HTTP GET requests, and BeautifulSoup to parse the HTML content.
-- Title Extraction: The script retrieves the title from the <h1> tag of the webpage.
-- Text Extraction: The main content is gathered from all <p> (paragraph) tags, concatenating them into a single string.
+- Title Extraction: The script retrieves the title from the \<h1\> tag of the webpage.
+- Text Extraction: The main content is gathered from all \<p\> (paragraph) tags, concatenating them into a single string.
 - Error Handling: The function includes exception handling to manage any potential errors that may occur during the request or content parsing.
 
 ## 2. Saving Extracted Data
